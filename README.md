@@ -1,5 +1,4 @@
 # VPS Manager
----
 针对ShadowsocksR服务器端软件对用户进行管理，主要包括分配端口、设置密码、设置使用时长等操作。
 
 ## How to use
