@@ -1,5 +1,4 @@
 # How to build server
---
 This file describe how to build vps server for yourself. Including ShadowsocksR setting and Linux setting.
 
 ## Select VPS Server
