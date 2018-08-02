@@ -1,0 +1,29 @@
+{
+	"server":	"0.0.0.0",
+	"server_ipv6":	"::",
+	"local_address":	"127.0.0.1",
+	"local_port":	1080,
+	"port_password":	{
+		"443":	{
+			"password":	"ghost",
+			"month":	"2",
+			"activated":	true,
+			"start_tf":	"2017-08-09 16:34:41",
+			"end_tf":	"2017-10-10 16:34:41",
+			"start_tp":	"1502267681",
+			"end_tp":	"1507624481"
+		}
+	},
+	"timeout":	400,
+	"method":	"aes-256-cfb",
+	"protocol":	"auth_sha1_v4",
+	"protocol_param":	"",
+	"obfs":	"http_simple",
+	"obfs_param":	"",
+	"redirect":	"",
+	"dns_ipv6":	false,
+	"fast_open":	true,
+	"workers":	1,
+	"current_port":	"60000",
+	"total_user":	"1"
+}
