@@ -22,6 +22,27 @@ This file describe how to build vps server for yourself. Including ShadowsocksR 
 * XFTP
 * Notepad++
 
+# Quickly built by shell script (*New*)
+### 1. Put '*init_install.sh*' and '*init_config.sh*' into '*/root*'
+### 2. Run
+```bash
+chmod +x init_install.sh init_config.sh
+./init_install.sh
+```
+### 3. Put files into '*/root/vps-server*'
+> Files including (total: 10):
+> * cJSON.c, cJSON.h, manager.c, manager
+> * shadowsock-backup.json, rules.raw, serverspeeder-config, vpscron
+> * currentuser.sh, setip.sh
+
+### 4. After rebooting automatically, Run
+```bash
+cd vps-server
+./init_config.sh
+```
+
+# Build Step By Step (Old)
+
 ## 1. Install SSR
 ```bash
 wget --no-check-certificate	 https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
